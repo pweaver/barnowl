@@ -1,4 +1,4 @@
-MODULES = Jabber IRC WordWrap Twitter Facebook
+MODULES = Jabber IRC WordWrap Twitter Facebook Kerberos
 
 EXTRA_DIST = $(MODULES:=/Makefile.PL) $(MODULES:=/inc) $(MODULES:=/lib)
 
